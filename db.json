@@ -9,7 +9,7 @@
     { "id": 2, "PrimaryAccount":"000000004321", "SecondaryAccount":"000000008765"}
   ],
   "PaymentDetails": [
-    { "PrimaryAccount":"000000001234", "MimimumBal":"100.00", "StatementBal":"3500.00", "DueDate":"03/05/2019"}
+    { "PrimaryAccount":"000000001234", "MimimumBal":"100.00", "StatementBal":"3500.00", "DueDate":"03/05/2019"},
     { "PrimaryAccount":"000000004321", "MimimumBal":"50.00", "StatementBal":"500.00", "DueDate":"03/10/2019"}
   ]
 }
