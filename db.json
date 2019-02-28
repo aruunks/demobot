@@ -1,14 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "UserDetails":[
+  { "id": 1, "Name": "Arunkumar", "City": "Irving", "State": "Texas", "Zip": "75039" },
+  { "id": 2, "Name": "Arun Sai", "City": "Irving", "State": "Texas", "Zip": "75039" },
+  { "id": 3, "Name": "Saravana", "City": "Irving", "State": "Texas", "Zip": "75039" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "AccountDetails": [
+    { "id": 1, "PrimaryAccount":"000000001234", "SecondaryAccount":"000000005678"},
+    { "id": 2, "PrimaryAccount":"000000004321", "SecondaryAccount":"000000008765"}
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "PaymentDetails": [
+    { "PrimaryAccount":"000000001234", "MimimumBal":"100.00", "StatementBal":"3500.00", "DueDate":"03/05/2019"}
+    { "PrimaryAccount":"000000004321", "MimimumBal":"50.00", "StatementBal":"500.00", "DueDate":"03/10/2019"}
+  ]
 }
